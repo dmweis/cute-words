@@ -1,0 +1,16 @@
+[package]
+authors = ["David Michael Weis <dweis7@gmail.com>"]
+description = "Stupid random word generator for identifiers"
+edition = "2021"
+license = "MIT OR APACHE"
+name = "cute-words"
+publish = false
+repository = "https://github.com/dmweis/cute-words"
+version = "0.1.0"
+
+[dependencies]
+rand = "0.8.5"
+
+[build-dependencies]
+anyhow = "1.0"
+ureq = "2.6.2"
