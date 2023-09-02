@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["WordList"],"fn":["simple_adjective_adjective_animal"],"struct":["RandomSequence"]};
