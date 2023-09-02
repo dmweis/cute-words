@@ -10,18 +10,6 @@ fn main() -> anyhow::Result<()> {
         .timeout_write(Duration::from_secs(5))
         .build();
 
-    download_file_to_dir(
-        &agent,
-        "https://assets.gfycat.com/adjectives",
-        "gfycat_adjectives.txt",
-    )?;
-
-    download_file_to_dir(
-        &agent,
-        "https://assets.gfycat.com/animals",
-        "gfycat_animals.txt",
-    )?;
-
     download_and_strip_eff_file_to_dir(
         &agent,
         "https://www.eff.org/files/2016/09/08/eff_short_wordlist_2_0.txt",

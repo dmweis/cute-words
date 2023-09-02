@@ -29,8 +29,8 @@ pub enum WordList {
 impl WordList {
     fn get_word_list(&self) -> &'static str {
         match self {
-            WordList::GfycatAdjectives => include_word_list!("gfycat_adjectives.txt"),
-            WordList::GfycatAnimals => include_word_list!("gfycat_animals.txt"),
+            WordList::GfycatAdjectives => include_str!("gfycat_adjectives.txt"),
+            WordList::GfycatAnimals => include_str!("gfycat_animals.txt"),
             WordList::EffShortWordlist20 => include_word_list!("eff_short_wordlist_2_0.txt"),
             WordList::EffShortWordlist1 => include_word_list!("eff_short_wordlist_1.txt"),
             WordList::EffLargeWordlist => include_word_list!("eff_large_wordlist.txt"),

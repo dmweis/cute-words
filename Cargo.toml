@@ -6,7 +6,7 @@ license = "MIT OR APACHE"
 name = "cute-words"
 publish = false
 repository = "https://github.com/dmweis/cute-words"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies]
 rand = "0.8.5"
